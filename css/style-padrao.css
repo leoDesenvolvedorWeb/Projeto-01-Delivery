@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'mukta', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100vh;
+    /*Permite que o body deina um valor minimo de altura*/
+}
+
+:root{
+    --background-clean: beige;
+    --cor-da-empresa: orange;
+    /*root para estilizar a cor do site inteiro com uma simples troca*/
+}
+
+/*header*/
+.cabecalho{
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRQssS2Uq-QXHm_W2Fd1CJE5mTpeHORqxuw&usqp=CAU);
+}
+
+.menu .ul-menu{
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    
+
+}
