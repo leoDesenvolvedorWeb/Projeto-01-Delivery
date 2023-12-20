@@ -11,10 +11,12 @@
     <header class="cabecalho">
         <nav class="menu">
             <ul class="ul-menu">
-                <li><i class="bi bi-list"></i></li>
-                <li><i class="bi bi-geo-alt"></i></li>
-                <li><p class="nome-localizacao">Londrina, PR</p></li>
-                <li><i class="bi bi-card-image"></i></li>
+                <a href="login.html">
+                    <li><i class="bi bi-file-person"></i></li>
+                </a>
+                    <li id="imagem-localizacao"><i class="bi bi-geo-alt"></i>
+                    <p class="nome-localizacao">Londrina, PR</p></li>
+                    <li><i class="bi bi-card-image"></i></li>   
             </ul>
             
         </nav>
@@ -74,23 +76,46 @@
             <span>Sua avaliação pode gerar cupons</span>
         </section>
 
-        <footer>
-            <ul>
-                <li>
-                    <a href=""><i class="bi bi-house-fill"></i><p>HOME</p></a>
+        <footer id="footer" 
+        class="footer">
+            <ul class="footer-card">
+                <a href="home.html">
+                <li class="footer-item">   
+                <i class="bi 
+                bi-house-fill"></i>
+                <p
+                class="footer-nome-item">HOME</p>
                 </li>
+                </a>
 
-                <li>
-                    <a href=""><i class="bi bi-emoji-smile"></i><p>PERFIL</p></a>
+                <a href="cadastrar_usuario.html">
+                <li class="footer-item">   
+                <i class="bi bi-emoji-smile"></i>
+                <p class="footer-nome-item">CADASTRO USUARIO</p>
                 </li>
+                </a>
 
-                <li>
-                    <a href=""><i class="bi bi-receipt"></i><p>CUPONS</p></a>
+                <a href="cadastrar_produto.html">
+                <li class="footer-item"> 
+                <i class="bi bi-upc-scan"></i>
+                <p class="footer-nome-item">CADASTRO DE PRODUTO</p>
                 </li>
+                </a>
 
-                <li>
-                    <a href=""><i class="bi bi-stickies"></i><p>PEDIDOS</p></a>
+                <a href="carrinho.html">
+                <li class="footer-item">
+                <i class="bi bi-cart"></i>
+                <p class="footer-nome-item">CARRINHO</p>
                 </li>
+                </a>
+
+
+                <a href="produto.html">
+                <li class="footer-item"> 
+                <i class="bi bi-stickies"></i>
+                <p class="footer-nome-item">PRODUTO</p>
+                </li>
+                </a>
             </ul>
         </footer>
     </main>

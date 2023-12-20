@@ -20,13 +20,103 @@ body{
 /*header*/
 .cabecalho{
     width: 100%;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRQssS2Uq-QXHm_W2Fd1CJE5mTpeHORqxuw&usqp=CAU);
+    background-image: url(https://images.pexels.com/photos/19478188/pexels-photo-19478188/free-photo-of-chocolate-creme-fotografia-de-alimentos-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=600);
 }
 
-.menu .ul-menu{
+.menu .ul-menu {
     display: flex;
-    align-content: flex-end;
+    justify-content: flex-end;
     align-items: center;
-    
+}
 
+.ul-menu li{
+    list-style: none;
+    padding: 2rem;
+    color: antiquewhite;
+}
+
+.bi-file-person{
+    font-size: 60px;
+    color: var(--background-clean);
+}
+
+ul li#imagem-localizacao{
+    display: flex;
+    padding-right: 0;
+    padding-left: 5rem;
+    margin-right: .8rem;
+    align-items: center; 
+}
+
+.bi-geo-alt{
+    font-size: 60px;
+    color: var(--background-clean);
+}
+
+.nome-localizacao{
+    font-size: 40px;
+    padding-left: 0;
+    padding-right: 5rem;
+}
+
+.bi-card-image{
+    font-size: 60px;
+    color: var(--background-clean);
+}
+
+/* Estilização do footer */
+.footer{
+    background-color: var(--background-clean);
+    margin-top: 5rem;
+}
+
+.footer-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer-card li{
+    list-style: none;
+}
+
+.footer-card a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.footer-item{
+    margin: .5rem;
+}
+
+i.bi-house-fill{
+    font-size: 60px;
+    color: var(--cor-da-empresa);
+}
+
+i.bi-emoji-smile{
+    font-size: 60px;
+    color: var(--cor-da-empresa);
+}
+
+i.bi-upc-scan{
+    font-size: 60px;
+    color: var(--cor-da-empresa);
+}
+
+i.bi-cart{
+    font-size: 60px;
+    color: var(--cor-da-empresa);
+}
+
+i.bi-stickies{
+    font-size: 60px;
+    color: var(--cor-da-empresa);
+}
+
+.footer-nome-item{
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
 }
