@@ -95,7 +95,7 @@ i.bi-search{
     position: absolute;
     color: var(--cor-da-empresa);
     padding-top: .2rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
     font-size: 40px;
 }
 
@@ -105,7 +105,32 @@ i.bi-search{
     font-size: 25px;
     padding: 1.2rem 0 1.2rem;
     padding-left: 4rem;
-    border: 2mm ;
+    border: 2mm ridge rgb(255, 197, 5);
+    text-align: center;
+}
+
+input:focus{
+    outline: 0;
+}
+
+::-webkit-input-placeholder{
+    color: grey;
+}
+
+input[type=text]{
+    color: grey;
+}
+
+/* Estilização da categoria*/
+section#categorias{
+    display: flex;
+
+}
+
+#categoria-ul{
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* Estilização do footer */
