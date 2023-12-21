@@ -124,13 +124,40 @@ input[type=text]{
 /* Estilização da categoria*/
 section#categorias{
     display: flex;
-
+    justify-content: space-around;
 }
 
 #categoria-ul{
     display: flex;
     justify-content: center;
-    
+}
+
+.categoria-a{
+    margin: 3rem 5rem;
+    text-decoration: none;
+    justify-content: center;
+}
+
+li.categoria{
+    margin: auto;
+    color: gray;
+    list-style: none;
+    border: solid 1px var(--cor-da-empresa);
+    border-radius: 2rem;
+    width: 90%;
+    padding: 2rem;
+    margin: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    transition: transform 0.6s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.categoria:hover{
+    background-color: var(--cor-da-empresa);
+    border: 5px solid grey;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px black;
 }
 
 /* Estilização do footer */
