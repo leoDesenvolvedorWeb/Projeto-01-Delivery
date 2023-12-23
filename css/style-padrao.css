@@ -311,3 +311,70 @@ i.bi-stickies{
     font-weight: 700;
     color: gray;
 }
+
+/* usando media queries para tranformar nossa page acessível a tela menores*/
+
+@media screen and (max-width: 480px){
+    body{
+        width: 100%;
+    }
+
+    i.bi-search{
+        position: absolute;
+        margin-right: 3rem;
+        padding-left: 2rem;
+    }
+
+    #categoria-ul{
+        flex-wrap: wrap;
+    }
+
+    #cards-produtos{
+        flex-wrap: wrap;
+    }
+
+    div.card-produto{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* usando media queries para tranformar nossa page acessível a tela menores*/
+
+@media screen and (max-width: 480px){
+    body{
+        width: 100%;
+    }
+    header{
+        display: flex;
+    }
+
+    i.bi-geo-alt, .nome-localizacao, i.bi-card-image{
+        display: none;
+    }
+
+    ul.footer-card{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .footer-card a{
+        width: 100%;
+    }
+}
+
