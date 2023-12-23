@@ -8,12 +8,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/produto.css" />
     <link rel="stylesheet" href="./css/carrinho.css" />
     <link rel="stylesheet" href="./css/login.css" />
     <link rel="stylesheet" href="./css/padrao-telas.css">
-    <title>CADASTRO DE PRODUTO</title>
+    <title>LOGIN</title>
   </head>
 
   <body>
@@ -36,50 +35,28 @@
       </nav>
     </header>
 
+    
     <section class="secao-login">
-      <h1 id="nome-empresa">CADASTRO USUÁRIO</h1>
-      <img src="" alt="" />
+      <h1 id="nome-empresa">NOME DA EMPRESA</h1>
+      <img src="https://png.pngtree.com/png-vector/20190120/ourlarge/pngtree-gallery-vector-icon-png-image_470660.jpg" alt="" />
 
-      <form action="">
-        <div class="login-senha">
-          <label for="" class="login">NOME</label>
-          <input type="text" class="input" placeholder="Digite seu nome" />
+      <section id="mensagem-ok" class="mensagem-ok">
 
-          <label for="" class="login">E-MAIL</label>
-          <input type="email" class="input" placeholder="Digite seu e-mail" />
+      </section>
 
-          <label for="" class="login">SENHA</label>
-          <input type="password" class="input" placeholder="Digite sua senha" />
+      <div class="login-senha">
+        <label for="" class="login">LOGIN</label>
+        <input id="myInput" type="text" class="input"/>
 
-          <label for="" class="login">IMAGEM</label>
-          <input
-            type="text"
-            class="input"
-            placeholder="Insira o link da imagem"
-          />
+        <label for="" class="login">SENHA</label>
+        <input id="myInput" type="password" class="input"/>
 
-          <label for="" class="login">ENDEREÇO</label>
-          <input type="text" class="input" placeholder="Digite seu endereço" />
+        <button id="addBtn" class="botao">REALIZAR LOGIN</button>
+      </div>
 
-          <label for="" class="login">PRODUTOS FAVORITOS</label>
-          <input
-            type="text"
-            class="input"
-            placeholder="Digite seus produtos favoritos"
-          />
-
-          <!-- <label for="" class="login">PEDIDOS</label>
-          <input type="text" class="input" placeholder="Digite sua senha" /> -->
-
-          <label class="login">ADMIN</label>
-          <div class="radio">
-            <input for="admin" type="radio" id="admin" name="admin" /><label for="admin" id="admin">Admin</label>
-            <input type="radio" id="cliente" name="admin" /><label for="cliente" id="cliente">Cliente</label>
-          </div>
-          <button class="botao">CADASTRAR USUÁRIO</button>
-        </div>
-      </form>
     </section>
+
+ 
 
     <footer id="footer" class="footer">
       <ul class="footer-card">
@@ -119,5 +96,7 @@
       </a>
     </ul>
   </footer>
+
+  <script src="./js/script.js"></script>
   </body>
 </html>
