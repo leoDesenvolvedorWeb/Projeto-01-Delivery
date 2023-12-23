@@ -140,6 +140,10 @@ section#categorias{
 
 li.categoria{
     margin: auto;
+}
+
+.categoria{
+    margin: auto;
     color: gray;
     list-style: none;
     border: solid 1px var(--cor-da-empresa);
@@ -160,6 +164,18 @@ li.categoria{
     box-shadow: 0 5px 15px black;
 }
 
+/* Estilização da seção produto*/
+section#cards-produtos{
+    display: flex;
+}
+
+.card-produto{
+    display: block;
+    margin: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 5px 15px black;
+    
+}
 /* Estilização do footer */
 .footer{
     background-color: var(--background-clean);
