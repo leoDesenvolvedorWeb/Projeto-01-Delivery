@@ -202,6 +202,59 @@ h3.nome-do-produto{
     margin-top: .2rem;
 }
 
+/* Estilização do vermais*/
+div#ver-mais{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+div#ver-mais a{
+    color: grey;
+    text-decoration: none;
+    margin: .8rem 2rem;
+}
+
+/* Estilização da avaliação*/
+section#avaliacao{
+    text-align: center;
+    border: .5rem outset var(--cor-da-empresa);
+    outline: .5rem solid orange;
+    box-shadow: 0 0 0 1rem gray;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    font: bold 1rem sans-serif;
+}
+
+#titulo-avaliacao{
+    font-size: 40px;
+    color: var(--cor-da-empresa);
+    text-shadow: 2px 2px black;
+}
+
+.bi-hand-thumbs-up{
+    font-size: 40px;
+    color: var(--cor-da-empresa);
+    text-shadow: 2px 2px black;
+}
+
+.bi-hand-thumbs-down{
+    font-size: 40px;
+    color: var(--cor-da-empresa);
+    text-shadow: 2px 2px black;
+}
+
+#frase-da-avaliacao{
+    font-size: 30px;
+    color: gray;
+    padding: 1.2rem;
+}
+
 /* Estilização do footer */
 .footer{
     background-color: var(--background-clean);
