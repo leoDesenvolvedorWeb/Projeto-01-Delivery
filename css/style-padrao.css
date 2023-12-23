@@ -174,8 +174,34 @@ section#cards-produtos{
     margin: 2rem;
     border-radius: 2rem;
     box-shadow: 0 5px 15px black;
-    
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    align-content: center;
 }
+
+.card-produto:hover{
+    box-shadow: inset 50px 0 0 0;
+    color: white;
+}
+
+.card-produto img{
+    display: block;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+h3.nome-do-produto{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    color: var(--cor-da-empresa);
+    margin-bottom: 1.3rem;
+    margin-top: .2rem;
+}
+
 /* Estilização do footer */
 .footer{
     background-color: var(--background-clean);
