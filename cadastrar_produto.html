@@ -1,95 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/produto.css" />
     <link rel="stylesheet" href="./css/carrinho.css" />
     <link rel="stylesheet" href="./css/login.css" />
     <link rel="stylesheet" href="./css/padrao-telas.css">
-    <title>Document</title>
-</head>
-<body>
+    <title>CADASTRO DE PRODUTO</title>
+  </head>
+
+  <body>
     <header class="cabecalho">
-        <nav class="menu">
-            <ul class="ul-menu">
-                <a href="login.html">
-                    <li><i class="bi bi-file-person"></i></li>
-                </a>
-                    <li id="imagem-localizacao"><i class="bi bi-geo-alt"></i>
-                    <p class="nome-localizacao">Londrina, PR</p></li>
-                    <li><i class="bi bi-card-image"></i></li>   
-            </ul>
-            
-        </nav>
+      <nav class="menu">
+        <ul class="ul-menu">
+          <a href="login.html">
+            <li id="image-usuario"><i class="bi bi-file-person"></i></li>
+          </a>
+  
+          <li id="image-localizacao">
+            <i class="bi bi-geo-alt"></i>
+            <p class="nome-localizacao">Londrina, PR</p>
+          </li>
+  
+          <li class="logo-empresa">
+            <i class="bi bi-card-image"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <section>
-            <h1>CADASTRAR PRODUTO</h1>
-            <form action="">
-                <div>
-                    <label for="">NOME DO PRODUTO</label>
-                    <input type="text">
+    <section class="secao-login">
+      <h1 id="nome-empresa">NOME DA EMPRESA</h1>
+      <img src="" alt="" />
 
-                    <label for="">DESCRIÇÃO DO PRODUTO</label>
-                    <input type="text">
+      <div class="login-senha">
+        <label for="" class="login">NOME DO PRODUTO</label>
+        <input type="text" class="input"/>
 
-                    <label for="">CATEGORIA</label>
-                    <input type="text">
+        <label for="" class="login">DESCRIÇÃO DO PRODUTO</label>
+        <input type="text" class="input"/>
 
-                    <label for="">PREÇO UNITÁRIO</label>
-                    <input type="text">
+        <label for="" class="login">CATEGORIA</label>
+        <input type="text" class="input"/>
 
-                    <label for="">CÓDIGO DE BARRAS</label>
-                    <input type="text">
+        <label for="" class="login">PREÇO UNITÁRIO</label>
+        <input type="text" class="input"/>
 
-                    <button>CADASTRAR PRODUTO</button>
-                </div>
-            </form>
-        </section>
+        <label for="" class="login">CÓDIGO DE BARRAS</label>
+        <input type="text" class="input"/>
 
-        <footer id="footer" 
-        class="footer">
-            <ul class="footer-card">
-                <a href="home.html">
-                <li class="footer-item">   
-                <i class="bi 
-                bi-house-fill"></i>
-                <p
-                class="footer-nome-item">HOME</p>
-                </li>
-                </a>
+     <button class="botao">CADASTRAR PRODUTO</button>
+      </div>
 
-                <a href="cadastrar_usuario.html">
-                <li class="footer-item">   
-                <i class="bi bi-emoji-smile"></i>
-                <p class="footer-nome-item">CADASTRO USUARIO</p>
-                </li>
-                </a>
+    </section>
 
-                <a href="cadastrar_produto.html">
-                <li class="footer-item"> 
-                <i class="bi bi-upc-scan"></i>
-                <p class="footer-nome-item">CADASTRO DE PRODUTO</p>
-                </li>
-                </a>
+    <footer id="footer" class="footer">
+      <ul class="footer-card">
+      <a href="index.html">
+        <li id="footer-item">
+          <i class="bi bi-house-fill"></i>
+          <p class="footer-name-item">HOME</p>
+        </li>
+      </a>
 
-                <a href="carrinho.html">
-                <li class="footer-item">
-                <i class="bi bi-cart"></i>
-                <p class="footer-nome-item">CARRINHO</p>
-                </li>
-                </a>
+      <a href="cadastrar_usuario.html">
+        <li id="footer-item">
+          <i class="bi bi-emoji-smile"></i>
+          <p class="footer-name-item">CADASTRO USUÁRIO</p>
+        </li>
+      </a>
 
+      <a href="cadastro_produto.html">
+        <li id="footer-item">
+          <i class="bi bi-upc-scan"></i>
+          <p class="footer-name-item">CADASTRO PRODUTO</p>
+        </li>
+      </a>
 
-                <a href="produto.html">
-                <li class="footer-item"> 
-                <i class="bi bi-stickies"></i>
-                <p class="footer-nome-item">PRODUTO</p>
-                </li>
-                </a>
-            </ul>
-        </footer>
-</body>
+      <a href="carrinho.html">
+        <li id="footer-item">
+          <i class="bi bi-cart"></i>
+          <p class="footer-name-item">CARRINHO</p>
+        </li>
+      </a>
+
+      <a href="produto.html">
+        <li id="footer-item">
+          <i class="bi bi-stickies"></i>
+          <p class="footer-name-item">PRODUTO</p>
+        </li>
+      </a>
+    </ul>
+  </footer>
+  </body>
 </html>
