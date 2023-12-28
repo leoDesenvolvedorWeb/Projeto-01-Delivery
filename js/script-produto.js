@@ -7,3 +7,26 @@ coracao.addEventListener('click', function(event){
     }
 });
 
+//script para inclementar e decrementar o número de produtos
+let decrementar = document.querySelector(".bi-dash-square");
+let inclementar = document.querySelector(".bi-plus-square");
+let textoProduto = document.querySelector(".numero-produto");
+let quantidadeProduto = parseInt(textoProduto.textContent);
+
+inclementar.addEventListener("click", function(){
+    quantidadeProduto++;
+    textoProduto.innerHTML = quantidadeProduto;
+});
+
+decrementar.addEventListener("click", function(){
+    if(quantidadeProduto<=1){
+        alert("A quantidade de produto não pode ser menos que 1.")
+    }else{
+        quantidadeProduto--;
+        textoProduto,innerHTML = quantidadeProduto;
+    }
+})
+
+console.log(decrementar);
+console.log(inclementar);
+console.log(quantidadeProduto);
