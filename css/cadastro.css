@@ -126,6 +126,23 @@ i.bi-card-image {
     font-weight: 700;
     color: gray; 
   }
+
+  .card-teste {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+    background-color: orange;
+    border: black 3px solid;
+    border-radius: 5rem;
+    z-index: 999;
+    font-size: 20px;
+    cursor: pointer;
+    transform: scale(.95);
+    transition: all .3s ease-in-out;
+  }
   
 
   /* Usando media queries para transformar nossa page acessível a tela menores */
