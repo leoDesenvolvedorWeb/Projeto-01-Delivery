@@ -13,7 +13,7 @@ let btnAdd = document.querySelector('#addBotao');
                 <span>CADASTRO EFETUADO COM SUCESSO!</span>
                 </div>
                 `
-            )
+            );
         }
 
         document.querySelector('#meuinput').value = "";
