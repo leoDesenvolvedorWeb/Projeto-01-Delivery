@@ -1,4 +1,4 @@
-let btnAdd = document.querySelector('#addBotao');
+let btnAdd = document.querySelector('#addbotao');
 
 //criar evento de click para o botão
     btnAdd.addEventListener("click", function(){
